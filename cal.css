@@ -1,0 +1,122 @@
+
+html, body{
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+  .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-wrap{
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 70px;
+  }
+  .content-left{
+    margin-right: 60px;
+    background: #ffc880;
+    color:#4eadfc;
+    float: left;
+    width: 400px;
+    height: 690px;
+    padding: 90px 20px 20px 0;
+    border-radius: 10px;
+  }
+  .main-wrap{
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+  .main-day{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .main-date{
+    font-size: 120px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  .todo-wrap{
+    padding: 0 0 0 40px;
+  }
+  .input-box{
+    width: 80%;
+    height: 40px; 
+    background: #ffe499;
+    color: #263847;
+    line-height : normal;
+    font-size: 15px;
+    font-family: inherit;
+    border: 0; 
+    border-radius: 10px; 
+    outline-style: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+  }
+  .input-data{
+    cursor: pointer;
+    height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px 0 30px 10px;
+    background: #4eadfc;
+    border: none;
+    color: #0b0809;
+    border-radius: 10px;
+  }
+  .input-data:hover{
+    background: #ffffff;
+    color: #0b0809;
+  }
+  .input-list > div{
+    font-size: 15px;
+    width: 60%;
+    margin-left: 10px;
+    float: left;
+    color: #263847;
+  }
+  .del-data{
+    display: block;
+    color: #252b30;
+    float: left;
+    width: 10%;
+    cursor: pointer;
+    font-size: 10px;
+    margin: 0 0 0 10px;
+    padding: 10px;
+    background: #ffc880;
+    border: none;
+    border-radius: 10px;
+  }
+  .content-right{
+    float: left;
+    width: 1000px;
+    height: 690px;
+    padding: 90px 20px 20px 0;
+    border-radius: 10px;
+    background: #aedbff;
+  }
+  .sun{
+    color:#ff624e;
+  }
+  .sat{
+    color:#3a4ec2;
+  }
+  .content-right table tr td{
+    width: 100px;
+    height: 75px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  /*클릭한 날짜스타일*/
+  .active{
+    background: #ffc880;
+    border-radius: 50%;
+    color: #ffffff;
+  }
