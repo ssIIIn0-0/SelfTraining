@@ -10,6 +10,6 @@
 - 플랫폼 : PC
 
 
-## 영상 및 기술서
-- 동영상 : (youtube link)
+## 웹사이트 주소 및 기술서
+- 웹사이트 주소 : https://ssiiin0-0.github.io/SelfTraining/index.html
 - 기술서 : (notion link)
